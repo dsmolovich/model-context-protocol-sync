@@ -1,9 +1,7 @@
 import json
 import sys
 import subprocess
-import threading
 import queue
-import time
 from typing import Optional, Dict, Any, List
 
 import requests
