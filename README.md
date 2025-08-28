@@ -9,7 +9,7 @@ Synchronous implementation of MCP server + client, made out of the examples from
 Ollama up and running with `llama:3.2` model
 
 
-Run client talking to weather MCP server in a subprocess
+Run client `client.py` talking to weather MCP server `weather.py` in a subprocess
 ```
 python client.py weather.py
 ```
