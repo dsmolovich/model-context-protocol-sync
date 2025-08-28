@@ -1,7 +1,6 @@
 import json
 import sys
 import subprocess
-import queue
 from typing import Optional, Dict, Any, List
 
 import requests
@@ -11,8 +10,6 @@ class MCPClient:
         self.ollama_host = ollama_host
         self.model = model
         self.server_process = None
-        self.message_queue = queue.Queue()
-        self.response_queue = queue.Queue()
         self.tools = []
 
     def connect_to_server(self, server_script_path: str):
