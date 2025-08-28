@@ -3,7 +3,12 @@ Synchronous implementation of MCP server + client, made out of the examples from
 - [MCP server](https://modelcontextprotocol.io/quickstart/server)
 - [MCP client](https://modelcontextprotocol.io/quickstart/client)
 
+
 # MCP client with MCP server over stdio
+### Pre-reqs:
+Ollama up and running with `llama:3.2` model
+
+
 Run client talking to weather MCP server in a subprocess
 ```
 python client.py weather.py
